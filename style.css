@@ -1,0 +1,52 @@
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.calc{
+    margin: 50px auto;
+    background-color: rgb(33, 32, 32);
+    width: fit-content;
+    border-radius: 20px;
+    border: 5px solid rgb(33, 32, 32);
+}
+table th{
+    color: white;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+}
+table td{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 50px;
+    height: 80px;
+    border: 5px solid rgb(33, 32, 32);
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+table td{
+    color: rgb(17, 17, 18);
+}
+#res{
+    color: darkgray;
+}
+.num{
+    background-color:cornflowerblue;
+}
+.sym{
+    background-color: rgb(248, 248, 95);
+}
+.c{
+    background-color: brown;
+}
+table td:hover{
+    background-color: rgb(188, 244, 120);
+    cursor: pointer;
+}
